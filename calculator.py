@@ -1,5 +1,5 @@
-# https://github.com/sathvikpallikkara/lab11-SP-RC.git
-# Partner 1: Sathvik Pallikkara
+# https://github.com/sathvikpallikkara/lab11-SP-RC
+# Partner 1: Sathvic Pallikkara
 # Partner 2: Ryan Carter
 
 import math
@@ -18,10 +18,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
     return b / a
@@ -31,5 +31,5 @@ def logarithm(a, b):
         raise ValueError("Invalid arguments for logarithm")
     return math.log(b, a)
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
